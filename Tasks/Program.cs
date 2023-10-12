@@ -6,9 +6,10 @@ namespace Tasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Задание 1.\n");
-            Console.WriteLine("Задание 2.\n");
-            Console.WriteLine("Задание 3.\n");
+            Console.WriteLine("Задание 1.\nЗадание отсутствует.");
+            Console.WriteLine("Задание 2.\nЗадание отсутствует.");
+            Console.WriteLine("Задание 3.\nЗадание отсутствует.");
+            Console.WriteLine("Задание 4.\nЗадание отсутствует.");
             bool flag = true;
             while (flag)
             {
@@ -21,6 +22,8 @@ namespace Tasks
                     case "2":
                         break;
                     case "3":
+                        break;
+                    case "4":
                         break;
                     default:
                         Console.WriteLine("\nДанного задания не существует или не правильно введён 'break'.");

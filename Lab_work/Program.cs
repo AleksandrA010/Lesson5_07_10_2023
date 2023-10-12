@@ -118,9 +118,9 @@ namespace Lab_work
         }
             static void Main(string[] args)
         {
-            Console.WriteLine("Задание 1.\n");
-            Console.WriteLine("Задание 2.\n");
-            Console.WriteLine("Задание 3.\n");
+            Console.WriteLine("Задание 1.\nНаписать программу, которая вычисляет число гласных и согласных букв в файле.");
+            Console.WriteLine("Задание 2.\nНаписать программу, реализующую умножению двух матриц, заданных в виде двумерного массива.");
+            Console.WriteLine("Задание 3.\nНаписать программу, вычисляющую среднюю температуру месяца в течение года, вывести по возрастанию.");
             bool flag = true;
             while (flag)
             {
@@ -167,8 +167,6 @@ namespace Lab_work
                         break;
                 }
             }
-            
-            //Console.ReadKey();
         }
     }
 }
